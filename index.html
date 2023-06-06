@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <style>
+      .btn {
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+        border: none;
+        
+      }
+      .carousel-item{
+        background-color: #fceae8;
+      }
+      
+    </style>
+</head>
+
+<body>
+  
+  <header class="">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container justify-content-between">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="justify-content-between">
+            
+            <ul class="navbar-nav justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Disabled</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </nav>
+    
+    <section class="container mt-5">
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active p-5 rounded">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center">
+                
+                <div>
+                  <h2>Lorem ipsum dolor sit amet.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt modi ipsam corporis, ab tempora
+                    maiores.</p>
+                  <h1>$420</h1>
+                  <div class="btn btn-warning">Buy now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="carousel-item p-5">
+            
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div>
+                  <h2>Lorem ipsum dolor sit amet.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt modi ipsam corporis, ab tempora
+                    maiores.</p>
+                  <h1>$420</h1>
+                  <div class="btn btn-warning">Buy now</div>
+                </div>
+                
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+          </div>
+          <div class="carousel-item p-5">
+            
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center">
+                
+                <div>
+                  <h2>Lorem ipsum dolor sit amet.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt modi ipsam corporis, ab tempora
+                    maiores.</p>
+                  <h1>$420</h1>
+                  <div class="btn btn-warning">Buy now</div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+  </header>
+  
+  
+  <main>
+    <secsion class="m-5">
+      
+      <div class="container text-center">
+        <div class="row g-2">
+          <div class="col-lg-4 ">
+            <div class="p-3 bg-warning d-flex align-items-center justify-content-around rounded">
+              <h1>Watch</h1>
+              <img src="images/categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="p-3 bg-success d-flex align-items-center justify-content-around rounded">
+              <h1>Bag</h1>
+              <img src="images/categories/bag.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="p-3 d-flex align-items-center justify-content-around rounded bg-primary">
+              <h1>Shoes</h1>
+              <img src="images/categories/shoes.png" alt="">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    </secsion>
+    
+    
+    <secsion class="container">
+      <h1 class="ms-5 mt-5">Shoes</h1>
+      <div class="row justify-content-center align-items-center g-4 px-5">
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sply-350</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+    </secsion>
+    
+    
+    <secsion class="container">
+      <h1 class="ms-5 mt-5">Bags</h1>
+      <div class="row justify-content-center align-items-center g-4 px-5">
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card shadow-lg">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+    </secsion>
+    
+    
+    
+  </main>
+  
+  
+  
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
